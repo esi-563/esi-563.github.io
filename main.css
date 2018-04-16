@@ -1,0 +1,79 @@
+body,html,h1,h2,p{
+	
+margin: 0;
+	
+padding:0;
+}
+
+nav{
+	position: fixed;
+	text-align: left;
+	font-family:  'Cooper','DFPOP1-W9',sans-serif;
+	font-size: 40px;
+	color:#4CAF50;
+	width: 100%;
+}
+
+
+.top{
+	height: 100vh;
+	background: url(six.jpg) no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     
+}
+
+.mid{
+    background: url(7.png) no-repeat 650px #904841;                         
+    background-size: contain;
+	height: 100vh;
+}
+
+.mid .text{
+padding-top: 10%;
+padding-left: 12%;
+}
+
+.mid .text h1{
+font-size: 50px;
+padding-right: 60%;
+padding-top:15%;
+color: #4CAF50;
+font-family:'DFPOP1-W9','Cooper',sans-serif;
+}
+
+
+
+.end{
+	height: 100vh;
+	background: #d4ff2d;
+}
+.end h1{
+	text-align: center;
+	font-size: 50px;
+    color: #4CAF50;
+    font-family:'DFPOP1-W9','Cooper',sans-serif;
+}
+
+.col-1-2{
+	display: inline-block;
+	padding: 20px;
+	width: 40%;
+}
+
+.colum{
+	text-align: center;
+	padding-top: 200px;
+}
+footer{
+	height: 200px;
+	background: #3f91d8;
+}
+footer p{
+padding-top: 100px;
+text-align: center;
+font-size: 20px;
+letter-spacing:10px;
+font-variant: small-caps;
+}
